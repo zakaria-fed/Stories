@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Provider from './Context'
 import Consumer from './Context'
+import Test from './Test'
 
 class Stories extends Component {
 
@@ -48,6 +49,7 @@ class Stories extends Component {
                         </div>)
                     )}
                 </div>
+                <Test />
             </div>
         )
     }
